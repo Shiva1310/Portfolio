@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: " Full Stack Developer",
     company: "4Labs Technologies Technopark Phase-3, Trivandrum",
     description: `Developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented Graphql APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB","Nodejs","SEO","HTML","CSS"],
   },
   {
     year: "24-04-2023 - 24-08-2023",
