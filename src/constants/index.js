@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import cms from "../assets/projects/cms.webp";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1.6 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Graphql and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -46,16 +46,25 @@ export const PROJECTS = [
   {
     title: "Orange Insurance",
     image: project3,
-    link:"https://orangeinsurance.com/",
+    link:"https://orangecareplus.com/",
 
     description:
       "Orange Insurance is a Dubai-based insurance company for which we developed a website using Next.js to showcase their insurance plans and policy information. The website features a responsive design, providing users with easy access to various insurance options. All data, including plans and policies, is dynamically connected to the Odoo CRM system via REST APIs for efficient data management. Additionally, we implemented an SEO-optimized blog page to enhance online visibility and integrated Google Analytics for performance tracking. This project highlights our expertise in building user-friendly, data-driven platforms with seamless third-party integrations.",
     technologies: ["HTML", "CSS", "React", "Bootstrap","Next.js"],
+  },
+  {
+    title: "Orange CMS",
+    image: cms,
+    link:"",
+
+    description:
+      "Designed and developed a Content Management System (CMS) portal using Next.js for the frontend and Node.js with MongoDB for the backend.Implemented features to manage website content dynamically, including blogs, About Us pages, and SEO configurations (tags and keywords).Optimized the platform for efficient content updates, enhancing website responsiveness and user engagement.",
+      technologies: ["Next.js", "Redux", "Google analytics", "SEO","Nodejs","Mongodb"],
   }
 ];
 
 export const CONTACT = {
   address: "18-101/1, Ottapanavillai, Elavuvillai Post, Kanyakumari district, Tamilnadu, Pin:629171",
   phoneNo: "+91 9486080321 ",
-  email: "shivakumar13102000@gmail.com",
+  email: "rshivakumar1310@gmail.com",
 };
