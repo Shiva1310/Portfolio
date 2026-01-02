@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import cms from "../assets/projects/cms.webp";
+import mps from "../assets/projects/mps.webp";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1.6 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Graphql and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -60,7 +61,24 @@ export const PROJECTS = [
     description:
       "Designed and developed a Content Management System (CMS) portal using Next.js for the frontend and Node.js with MongoDB for the backend.Implemented features to manage website content dynamically, including blogs, About Us pages, and SEO configurations (tags and keywords).Optimized the platform for efficient content updates, enhancing website responsiveness and user engagement.",
       technologies: ["Next.js", "Redux", "Google analytics", "SEO","Nodejs","Mongodb"],
-  }
+  },
+  {
+  title: "Manpower Souq",
+  image: mps,
+  link: "",
+  role: "Full Stack Developer (Next.js & GraphQL)",
+  description:
+    "Worked as a Full Stack Developer on the Manpower Souq platform, building the frontend using Next.js and developing a GraphQL-based backend with Node.js and MongoDB. Implemented complex business logic for job management, quotations, subcontractor workflows, worker onboarding, and bulk Excel uploads. Designed MongoDB schemas, GraphQL schemas and resolvers, role-based access control, and real-time progress tracking, ensuring scalability, performance, and maintainability.",
+  technologies: [
+    "Next.js",
+    "GraphQL",
+    "Node.js",
+    "MongoDB",
+    "Express.js",
+    "RabbitMQ",
+  ],
+}
+
 ];
 
 export const CONTACT = {
